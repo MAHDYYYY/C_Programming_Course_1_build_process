@@ -1,0 +1,12 @@
+// C programming course ==> Mohamed Mahdy
+// commands to generate build process files ...
+
+
+
+
+
+
+## generate file after preprocessing ==> gcc FILE_NAME.c -E -o OUTPUT_FILE_NAME.i 
+## generete file after compiler ==> gcc FILE_NAME.c -s -o OUTPUT_FILE_NAME.s 
+## generate file after assembler ==> gcc FILE_NAME.c -c -o OUTPUT_FILE_NAME.o 
+## generate file after linker ==> gcc FILE_NAME.c  -o OUTPUT_FILE_NAME.exe
